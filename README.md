@@ -80,6 +80,38 @@ openssl pkcs12 -provider default -provider legacy -export -legacy -in signCert.p
 3. In Libreoffice Preferences Security select Firefox default for the Certificate Path.
 4. The signing Dialogue should now bring up your certificate for signing.
 
+## Keychain import
+
+### Import in Firefox
+
+<picture>
+   <img src="assets/firefox_import.jpg" alt="firefox_import" width="300" height="auto" />
+</picture>
+
+### Import Libre Office
+
+<picture>
+   <img src="assets/libreoffice_setting.jpg" alt="libreoffice_setting" width="300" height="auto" />
+</picture>
+
+### Import in Apple Keychain
+
+<picture>
+   <img src="assets/apple_identity_pref.jpg" alt="apple_identity_pref" width="300" height="auto" />
+</picture>
+
+## Validation in Acrobat Reader
+
+<picture>
+   <img src="assets/acrobat_validation.jpg" alt="acrobat" width="300" height="auto" />
+</picture>
+
+## Validation in Libre Office
+
+<picture>
+   <img src="assets/libreoffice_validation.jpg" alt="libreoffice" width="300" height="auto" />
+</picture>
+
 ## Limitations
 Although this procedure worked for me, there are some limitations:
 1. the certificate has a built-in limitation of one year.
