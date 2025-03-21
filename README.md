@@ -30,7 +30,7 @@ Thanks to the instructions (https://www.practicalnetworking.net/practical-tls/op
 $ path/to/openssl version -d
 OPENSSLDIR: “/usr/lib/ssl”
 ```
-3. make a copy
+3. make a backup copy
 ```
 $ cp /usr/lib/ssl/openssl.cnf /usr/lib/ssl/openssl.cnf_copy
 ```
