@@ -80,4 +80,8 @@ openssl pkcs12 -provider default -provider legacy -export -legacy -in signCert.p
 3. In Libreoffice Preferences Security select Firefox default for the Certificate Path.
 4. The signing Dialogue should now bring up your certificate for signing.
 
-
+## Limitations
+Although this procedure worked for me, there are some limitations:
+1. the certificate has a built-in limitation of one year.
+2. the certificate has no email information, so while the certificate is valid it is not directly connected to an email address
+3. the root certificate of the korean certificate authority might not be default in all systems and might have to be added manually.
