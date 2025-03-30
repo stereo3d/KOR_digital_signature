@@ -1,4 +1,4 @@
-# KOR_digital_signature
+# KOREAN digital signature and certificate
 create a digital signature using a Korean bank certificate
 
 this guide assumes you have received a digital certificate from a korean bank.
